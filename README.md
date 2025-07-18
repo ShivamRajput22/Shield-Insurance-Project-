@@ -73,10 +73,6 @@ This project uses a clean star schema with:
 
 ---
 
-## 🖼️ Screenshots
-
-![Dashboard Overview](assets/dashboard-overview.png)  
-![Policy Performance](assets/policy-performance.png)
 
 ---
 
