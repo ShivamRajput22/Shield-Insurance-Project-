@@ -2,109 +2,100 @@
 
 📊 **Data-Driven Insights for Strategic Decision-Making in the Insurance Sector**
 
-This project presents a full-cycle business intelligence solution developed using **Microsoft Power BI** for a simulated insurance provider, **Shield Insurance**. The objective was to model, visualise, and interpret operational data to support executive-level decisions and showcase core competencies in data analysis, dashboard development, and insight generation.
+This project showcases a comprehensive Power BI dashboard created for a fictional insurance provider, **Shield Insurance**. The aim was to support business decisions using data visualisation, KPI monitoring, and customer segmentation.
 
 ---
 
 ## 🎯 Project Overview
 
-The primary goal was to design an interactive Power BI dashboard that consolidates key performance indicators across **customer acquisition**, **policy sales**, **revenue trends**, and **settlement outcomes**.
+The goal was to simulate a real-world data analysis scenario where a Data Analyst delivers an interactive dashboard that visualises:
 
-This solution demonstrates how a Data Analyst can enable business users to:
-- Monitor performance across multiple regions and demographics
-- Identify high-performing products and customer segments
-- Analyse sales trends across online and offline channels
-- Simulate data-driven business strategies through visual exploration
+- Customer acquisition trends
+- Policy sales and popularity
+- Channel performance (offline vs online)
+- Revenue and settlement distribution
+
+The dashboard empowers decision-makers to explore performance across cities, age groups, policy types, and time periods.
 
 ---
 
 ## 🧰 Tools & Technologies
 
-| Tool                | Purpose                                                                 |
-|---------------------|-------------------------------------------------------------------------|
-| **Power BI Desktop** | Data modelling, DAX calculations, interactive dashboard development     |
-| **PowerPoint**       | Executive summary presentation of key findings                          |
-| **Microsoft Clipchamp** | Video walkthrough of the dashboard for stakeholder demonstration    |
+| Tool                  | Purpose                                                             |
+|-----------------------|---------------------------------------------------------------------|
+| **Power BI Desktop**   | Data modelling, DAX calculations, and dashboard development         |
+| **PowerPoint**         | Business insights presentation summary                              |
+| **Microsoft Clipchamp**| Walkthrough video of the dashboard with insights and narration      |
 
 ---
 
-## 🗂️ Data Model
+## 📁 Data Model
 
-This project is based on a **star schema** consisting of dimension and fact tables, as follows:
+This project uses a clean star schema with:
 
-| Table Name         | Description                                                                 |
-|--------------------|-----------------------------------------------------------------------------|
-| `Dim_Customer`     | Contains customer demographic attributes including age group and city       |
-| `Dim_Policies`     | Defines policy-level data such as type, coverage, and premium               |
-| `Dim_Date`         | Enables time-series analysis by day, month, and year                        |
-| `Fact_Premiums`    | Captures premium payments by customer and policy                            |
-| `Fact_Settlements` | Contains data on insurance claim settlements for each customer segment      |
+| Table Name         | Description                                                           |
+|--------------------|-----------------------------------------------------------------------|
+| `Dim_Customer`     | Customer age, gender, and location data                               |
+| `Dim_Policies`     | Policy types, premiums, and coverage details                          |
+| `Dim_Date`         | Time attributes for monthly/quarterly/yearly slicing                  |
+| `Fact_Premiums`    | Premium collection records                                            |
+| `Fact_Settlements` | Payouts per customer and expected settlement value                    |
 
 ---
 
 ## 📊 Key Insights
 
-- **Delhi NCR** recorded the highest revenue and customer acquisition volume.
-- **POL4321HEL**, a low-cost policy (5,000 premium), was the most purchased product across all regions.
-- The **31–40 age group** accounted for over **11,000 policyholders**, making it the most active segment.
-- A **gradual shift toward online channels** was observed, although offline agents still dominate total sales.
-- Customers aged **65+** showed the **highest average settlement amounts**, highlighting potential risk exposure.
-- **Offline sales** are consistently declining, indicating growing digital adoption among customers.
+- **Delhi NCR** recorded the highest customer acquisition and revenue.
+- **POL4321HEL** (5,000 premium) was the most subscribed policy.
+- The **31–40 age group** had the highest customer volume (11,000+ policyholders).
+- Shift toward **online channels** (app, website) is clearly visible.
+- **65+ customers** had the highest average settlement amounts.
+- **Offline agent-based sales** are gradually declining, showing growing digital adoption.
 
 ---
 
-## 💼 Deliverables & Outcomes
+## 💼 Project Outcomes
 
-- Developed a **fully interactive Power BI dashboard** with slicers for city, age group, policy type, sales mode, and date.
-- Enabled dynamic filtering and real-time performance monitoring through clear, visual storytelling.
-- Simulated actionable business recommendations, such as investing in digital channels and tailoring policy marketing by age group.
-- Delivered a **professional video walkthrough** and a **presentation deck** highlighting the insights, dashboard design choices, and strategic implications.
-
----
-
-## 🖥️ Dashboard Features
-
-- KPI Cards and Line Charts for monthly trends  
-- Clustered Bar and Donut Charts for comparative breakdowns  
-- Matrix Tables for cross-tab summaries  
-- Slicers for intuitive filtering across all views  
-- Responsive layout for seamless stakeholder review
+- Developed an interactive Power BI dashboard with slicers for **city**, **age group**, **sales channel**, and **policy type**.
+- Simulated a realistic business scenario with multiple KPIs.
+- Created a client-facing **PowerPoint presentation** and a **video walkthrough** to explain findings.
+- Demonstrated skills in **data modelling**, **DAX**, and **data storytelling** for business value.
 
 ---
 
-## 🧭 How to Explore
+## 🔗 Live Demo & Resources
 
-1. Clone or download this repository.
-2. Open the `.pbix` file using **Power BI Desktop**.
-3. Use the filters to analyse performance by:
-   - Age Group
-   - City
-   - Policy ID
-   - Sales Channel
-   - Time Period
-4. Watch the included **video demo** or view the **PowerPoint summary** for a guided walkthrough.
+- 🖥️ **[View Live Power BI Dashboard](https://app.powerbi.com/groups/me/reports/7d423880-7f26-4f1f-974a-a6578da098ae/b962279670e1407dc700?experience=power-bi)**  
+- 📄 **[Download Presentation (PDF)](https://yourfilelink.com/presentation.pdf)**  
+- 🔗 **[LinkedIn Post with Project Walkthrough](https://www.linkedin.com/in/shivamrrajput01/)**
+
+> _Note: Dashboard is published publicly via Power BI "Publish to web" feature and may take a few seconds to load._
 
 ---
 
-## 🏆 Acknowledgements
+## 🖼️ Screenshots
 
-This project was inspired by a practical business scenario provided through the **Codebasics Internship Challenge**.  
-Special thanks to **Dhaval Patel** and **Hemanand Vadivel** for curating a real-world case study that brings together technical skill and business context.
+![Dashboard Overview](assets/dashboard-overview.png)  
+![Policy Performance](assets/policy-performance.png)
 
 ---
 
-## 👤 About Me
+
+---
+
+## 👤 About the Analyst
 
 **Shivam Rajput**  
-Data Analyst | MSc Data Science | Excel | Power BI | SQL | Python  
+Data Analyst | MSc Data Science | Power BI & Python Enthusiast  
 📍 London, UK  
 📧 shivamrrajput01@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/shivamrrajput01)  
-🔗 [Portfolio/Website](https://shivamrajput22.github.io/ShivamTheAnalyst.github.io/)
+🔗 [Portfolio](#)
 
 ---
 
-## 🔖 Tags
+## 🏷️ Tags
 
-#PowerBI #DataAnalytics #DashboardDesign #BusinessIntelligence #DataStorytelling #MicrosoftPowerBI #InsuranceAnalytics #DAX #CustomerInsights #SQL #DataModeling #CodebasicsVirtualInternship #MScDataScience #DataPortfolio #InteractiveDashboard #AnalyticsProject
-
+#PowerBI #DataAnalytics #DashboardDesign #BusinessIntelligence #CustomerInsights  
+#MicrosoftPowerBI #InsuranceAnalytics #DataStorytelling #MScDataScience #codebasicsvirtualinternship  
+#DAX #InteractiveDashboard #SQL #AnalyticsProject #DataModeling #DataVisualization #DataPortfolio
