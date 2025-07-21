@@ -82,11 +82,11 @@ This project uses a clean star schema with:
 ## 👤 About the Analyst
 
 **Shivam Rajput**  
-Data Analyst | MSc Data Science | Power BI & Python Enthusiast  
+Data Analyst | MSc Data Science | Excel | Power BI | SQL | Python | Machine Learning  
 📍 London, UK  
 📧 shivamrrajput01@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/shivamrrajput01)  
-🔗 [Portfolio](#)
+🔗 [Portfolio](https://shivamrajput22.github.io/ShivamTheAnalyst.github.io/)
 
 ---
 
