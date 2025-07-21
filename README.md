@@ -66,8 +66,8 @@ This project uses a clean star schema with:
 ## 🔗 Live Demo & Resources
 
 - 🖥️ **[View Live Power BI Dashboard](https://app.powerbi.com/groups/me/reports/7d423880-7f26-4f1f-974a-a6578da098ae/b962279670e1407dc700?experience=power-bi)**  
-- 📄 **[Download Presentation (PDF)](https://yourfilelink.com/presentation.pdf)**  
-- 🔗 **[LinkedIn Post with Project Walkthrough](https://www.linkedin.com/in/shivamrrajput01/)**
+- 🎬  **[Video Presentation ](https://drive.google.com/file/d/13yKCUJfSAbLEp6Gj6mT0iJAZ4Z96wO7J/view)**  
+- 🔗 **[LinkedIn Post with Project Walkthrough](https://www.linkedin.com/posts/shivamrajput-analyst_powerbi-dataanalytics-businessintelligence-activity-7353159723338084352-agiJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADqHLfsBrREJue479EyeAmrayRa4XVBVrZE)**
 
 > _Note: Dashboard is published publicly via Power BI "Publish to web" feature and may take a few seconds to load._
 
@@ -95,3 +95,4 @@ Data Analyst | MSc Data Science | Power BI & Python Enthusiast
 #PowerBI #DataAnalytics #DashboardDesign #BusinessIntelligence #CustomerInsights  
 #MicrosoftPowerBI #InsuranceAnalytics #DataStorytelling #MScDataScience #codebasicsvirtualinternship  
 #DAX #InteractiveDashboard #SQL #AnalyticsProject #DataModeling #DataVisualization #DataPortfolio
+
